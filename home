@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Armando Giordano</title>
+  <style>
+    body {
+      background-image: url('https://thumbs.dreamstime.com/b/elegant-white-blue-ammonite-shell-intricate-spiral-patterns-watercolor-details-concept-marine-design-seafood-elements-364634629.jpg'); /* Sostituisci con il percorso reale del tuo file */
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h1>Armando Giordano</h1>
+    <p>Benvenuto nel mio sito curriculare.</p>
+  </div>
+
+  <section>
+    <h2>Obiettivo</h2>
+    <p>
+      Sono laureato in Scienze Geologiche e possiedo una solida preparazione in geotecnica, GIS e rilevamento geologico, 
+      che ho arricchito con competenze trasversali in informatica, sicurezza digitale e programmazione (Python, JavaScript). 
+      Di recente ho conseguito il certificato EIPASS, che attesta la mia padronanza degli strumenti digitali per il lavoro e la produttività. 
+      Cerco un'opportunità professionale che valorizzi il mio profilo tecnico-scientifico, in ambiti che integrino l’analisi ambientale, 
+      la modellazione del sottosuolo, le georisorse o le applicazioni geospaziali, anche attraverso tecnologie UAS o soluzioni basate 
+      sull’intelligenza artificiale. Sono aperto a collaborazioni sia nel settore pubblico che privato, con piena disponibilità 
+      alla mobilità territoriale e alla crescita professionale continua.
+    </p>
+  </section>
+
+  <section>
+    <h2>Contatti</h2>
+    <p>
+      <a href="https://wa.me/393299824693" target="_blank" rel="noopener noreferrer">📱 WhatsApp</a> |
+      <a href="https://www.linkedin.com/in/armando-giordano-192005370" target="_blank" rel="noopener noreferrer">💼 LinkedIn</a> |
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=uxxsephirion@gmail.com" target="_blank" rel="noopener noreferrer">📧 Gmail</a> |
+      <a href="CV.Armando%20Giordano.pdf" download>📄 Scarica il CV</a>
+    </p>
+  </section>
+
+  <!-- reCAPTCHA -->
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <form action="submit_form.php" method="post">
+    <div class="g-recaptcha" data-sitekey="6LcVdpMrAAAAANtRefFtEvyvz2DEgJbbWNJVOI8A"></div>
+    <br/>
+    <input type="submit" value="Invia">
+  </form>
+</body>
+</html>
