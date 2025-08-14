@@ -6,11 +6,30 @@
   <title>Armando Giordano</title>
   <style>
     body {
-      background-image: url('https://thumbs.dreamstime.com/b/elegant-white-blue-ammonite-shell-intricate-spiral-patterns-watercolor-details-concept-marine-design-seafood-elements-364634629.jpg'); /* Sostituisci con il percorso reale del tuo file */
+      background-image: url('https://thumbs.dreamstime.com/b/elegant-white-blue-ammonite-shell-intricate-spiral-patterns-watercolor-details-concept-marine-design-seafood-elements-364634629.jpg');
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
       background-attachment: fixed;
+    }
+    .button-link {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #004080;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .button-link:hover {
+      background-color: #0066cc;
+    }
+    .hidden-recaptcha {
+      opacity: 0;
+      height: 0;
+      overflow: hidden;
+      position: absolute;
+      pointer-events: none;
     }
   </style>
 </head>
@@ -43,12 +62,19 @@
     </p>
   </section>
 
-  <!-- reCAPTCHA -->
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-  <form action="submit_form.php" method="post">
-    <div class="g-recaptcha" data-sitekey="6LcVdpMrAAAAANtRefFtEvyvz2DEgJbbWNJVOI8A"></div>
-    <br/>
-    <input type="submit" value="Invia">
-  </form>
+  <section>
+    <h2>I miei lavori universitari</h2>
+    <a class="button-link" href="lavori-universitari.html" target="_blank">📚 Vai ai Lavori Universitari</a>
+  </section>
+
+  <!-- reCAPTCHA nascosto -->
+  <div class="hidden-recaptcha">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <form action="submit_form.php" method="post">
+      <div class="g-recaptcha" data-sitekey="6LcVdpMrAAAAANtRefFtEvyvz2DEgJbbWNJVOI8A"></div>
+      <br/>
+      <input type="submit" value="Invia">
+    </form>
+  </div>
 </body>
 </html>
