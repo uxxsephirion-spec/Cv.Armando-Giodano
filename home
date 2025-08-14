@@ -67,13 +67,15 @@
     <h2>I miei lavori universitari</h2>
     <a class="button-link" href="lavori-universitari.html" target="_blank">📚 Vai ai Lavori Universitari</a>
     <div>
-      <a class="button-link" href="appunti-geotecnica.html" target="_blank">📘 Geotecnica</a>
-      <a class="button-link" href="appunti-idrogeologia1.html" target="_blank">💧 Idrogeologia 1</a>
-      <a class="button-link" href="appunti-idrogeologia2.html" target="_blank">💧 Idrogeologia 2</a>
-      <a class="button-link" href="appunti-petrografia.html" target="_blank">🪨 Petrografia</a>
-      <a class="button-link" href="appunti-georisorse.html" target="_blank">🌍 Georisorse</a>
-      <a class="button-link" href="appunti-paleontologia-invertebrati.html" target="_blank">🐚 Paleontologia Invertebrati</a>
-      <a class="button-link" href="appunti-paleontologia-vertebrati.html" target="_blank">🦴 Paleontologia Vertebrati</a>
+      <a class="button-link" href="appunti-geotecnica calcaterra.pdf" target="_blank">📘 Geotecnica</a>
+      <a class="button-link" href="appunti-idrogeologia Alloca.pdf" target="_blank">💧 Idrogeologia 1</a>
+      <a class="button-link" href="appunti-IDROGEOLOGIA.pdf" target="_blank">💧 Idrogeologia 2</a>
+      <a class="button-link" href="appunti-PETROGRAFIA.pdf" target="_blank">🪨 Petrografia</a>
+      <a class="button-link" href="appunti-Petrografia#1.pdf" target="_blank">🪨 Petrografia #1</a>
+      <a class="button-link" href="appunti-Petrografia #2.pdf" target="_blank">🪨 Petrografia #2</a>
+      <a class="button-link" href="appunti-georisorse.pdf" target="_blank">🌍 Georisorse</a>
+      <a class="button-link" href="appunti-paleontologia-invertebrati.pdf" target="_blank">🐚 Paleontologia Invertebrati</a>
+      <a class="button-link" href="appunti-paleontologia-vertebrati.pdf" target="_blank">🦴 Paleontologia Vertebrati</a>
     </div>
   </section>
 
